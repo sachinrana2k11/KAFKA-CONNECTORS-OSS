@@ -59,10 +59,13 @@ class main:
 
 if __name__ == '__main__':
     m = main()
-    t0 = threading.Thread(target=m.get_msg_from_kafka)
-    t0.start()
+    for x in range(1, m.my_variable/2 + 1):
+        obj = "tg" + str(x)
+        print("Starting Thread-:" + obj)
+        obj = threading.Thread(target=m.attach_to_mongo)
+        obj.start()
     for x in range(1, m.my_variable + 1):
-        obj = "t" + str(x)
+        obj = "ts" + str(x)
         print("Starting Thread-:" + obj)
         obj = threading.Thread(target=m.attach_to_mongo)
         obj.start()

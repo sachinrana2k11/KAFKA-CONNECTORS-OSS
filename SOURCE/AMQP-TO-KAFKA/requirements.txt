@@ -1,0 +1,4 @@
+paho-mqtt
+termcolor
+confluent-kafka
+pika

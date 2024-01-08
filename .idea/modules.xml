@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/KAFKA-CONNECTORS-OSS.iml" filepath="$PROJECT_DIR$/.idea/KAFKA-CONNECTORS-OSS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../STREAM_PROCESSOR/.idea/STREAM_PROCESSOR.iml" filepath="$PROJECT_DIR$/../../STREAM_PROCESSOR/.idea/STREAM_PROCESSOR.iml" />
+    </modules>
+  </component>
+</project>

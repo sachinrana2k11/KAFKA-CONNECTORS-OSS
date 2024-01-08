@@ -56,7 +56,7 @@ class Generic_Mqtt():
     def fetch_data(self):
         print("Looking For data ...queue size -:" + str(self.q.qsize()))
         if self.q.empty():
-            print("No Data Available")
+            print("No Data Avaialble")
             time.sleep(self.data["MQTT-CONFIG"]["MQTT_WAIT_TIME"])
             return None
         if not self.q.empty():

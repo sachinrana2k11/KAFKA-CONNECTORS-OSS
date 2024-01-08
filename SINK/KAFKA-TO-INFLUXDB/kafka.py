@@ -43,6 +43,6 @@ class kafka:
                     print(f"Error: {msg.error()}")
                     break
             else:
-                print(f"Received message: {msg.value().decode('utf-8')}")
+                #print(f"Received message: {msg.value().decode('utf-8')}")
                 return msg.value().decode('utf-8')
 

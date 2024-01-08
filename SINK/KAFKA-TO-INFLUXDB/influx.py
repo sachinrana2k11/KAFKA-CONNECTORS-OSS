@@ -28,7 +28,7 @@ class InfluxDB:
             for key, value in in_data["InfluxDataFields"].items():
                  point.field(key, value)
             result = self.writer.write(bucket=self.bucket, org=self.org,record=point)
-            print("Data Sent-: TO InfluxDB")
+            #print("Data Sent-: TO InfluxDB")
             return True
         except:
            e = sys.exc_info()[0]
