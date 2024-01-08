@@ -1,0 +1,28 @@
+{   
+    "CONNECT-CONFIG":
+    {
+        "DEFAULT-TASK": 1
+    },
+    "INFLUX-CONFIG":
+    {
+        "INFLUX-URL": "https://influxdb.ideaxa.io",
+        "INFLUX-TOKEN": "EauL-EvX1QwNcgqCz23yOB_kmskzNnTzokfaUy8wJ3TcDJiblYsaHasso4Dhk8UB9d1JOlLAzCRRaz6AYB2U4A==",
+        "INFLUX-ORG": "ideaxa",
+        "INFLUX-MEASUREMENT": "kafka",
+        "INFLUX-BUCKET": "IOT-DATA",
+        "INFLUX-WAIT-TIME": 2
+    },
+    "KAFKA-CONFIG":
+    {
+        "KAFKA-URL":"pkc-9q8rv.ap-south-2.aws.confluent.cloud:9092",
+        "KAFKA-USR":"VFTUTGSWYZ2H5BVL",
+        "KAFKA-PWD":"lYql/IBULmtsvTivRjtGv9KbLOjYbic51gOsfrnnmiuHijB+ev/PiY0KUtyX98c+",
+        "KAFKA-TOPIC":"topic_58",
+        "KAFKA-SSL":"TRUE",
+        "KAFKA-CONSUMER-ID": "consumer-2",
+        "KAFKA-POLL-INTERVAL": 1.0
+    }
+}
+
+
+

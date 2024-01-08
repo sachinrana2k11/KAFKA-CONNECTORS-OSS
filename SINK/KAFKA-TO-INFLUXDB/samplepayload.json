@@ -1,0 +1,5 @@
+{
+    "InfluxTag": {"location": "Modesto"},
+    "InfluxDataFields": {"temperature": "23", "humidity": "45"},
+    "timestamp": "datetime object"
+}

@@ -1,0 +1,22 @@
+{   
+    "CONNECT-CONFIG":
+    {
+        "DEFAULT-TASK": 1
+    },
+    "AZ-EVENT-HUB-CONFIG":
+    {
+        "AZ-EVENT-HUB-NAME": "iothub-ehub-ideaxa-iot-25151903-001c974bcb",
+        "CONNECTION-STRING": "Endpoint=sb://ihsuprodpnres002dednamespace.servicebus.windows.net/;SharedAccessKeyName=iothubowner;SharedAccessKey=7seYUWJ3EtiGdOIX+LEeecbsAmYO53dD6+Ep6CZg8yU=;EntityPath=iothub-ehub-ideaxa-iot-25151903-001c974bcb",
+        "CONSUMER-GROUP": "$Default",
+        "WAIT-TIME": 2
+    },
+    "KAFKA-CONFIG":
+    {
+        "KAFKA-URL":"pkc-9q8rv.ap-south-2.aws.confluent.cloud:9092",
+        "KAFKA-USR":"P65IWZDTHDBWVKZC",
+        "KAFKA-PWD":"Y0yzH4IKuaFFs8cbAj1C8VK/BDLqSOEj1uh8wW+22eL+St3Z4gsaN9ihOdLenyHV",
+        "KAFKA-TOPIC":"topic_58",
+        "KAFKA-SSL":"TRUE",
+        "KAFKA-MAX-BUFFER": 100000
+    }
+}

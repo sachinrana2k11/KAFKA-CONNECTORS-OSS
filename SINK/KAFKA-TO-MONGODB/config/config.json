@@ -1,0 +1,22 @@
+{   
+    "CONNECT-CONFIG":
+    {
+        "DEFAULT-TASK": 1
+    },
+    "MONGO": {
+        "SERVER-ADDRESS": "mongodb+srv://sachinrana2k11:Slrk1XzV9yqriQhm@idx001.4tvxwk5.mongodb.net/?retryWrites=true&w=majority",
+        "DB-NAME": "KAFKA-DB",
+        "COLLECTION-NAME": "b2915c9c-0723-47e7-ab0f-e96d48454d58",
+        "MONGO-WAIT-TIME": 2
+    },
+    "KAFKA-CONFIG":
+    {
+        "KAFKA-URL":"pkc-9q8rv.ap-south-2.aws.confluent.cloud:9092",
+        "KAFKA-USR":"VFTUTGSWYZ2H5BVL",
+        "KAFKA-PWD":"lYql/IBULmtsvTivRjtGv9KbLOjYbic51gOsfrnnmiuHijB+ev/PiY0KUtyX98c+",
+        "KAFKA-TOPIC":"topic_58",
+        "KAFKA-SSL":"TRUE",
+        "KAFKA-CONSUMER-ID": "mongo-consumer",
+        "KAFKA-POLL-INTERVAL": 1.0
+    }
+}

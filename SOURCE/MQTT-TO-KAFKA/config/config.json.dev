@@ -1,0 +1,25 @@
+{   
+    "CONNECT-CONFIG":
+    {
+        "DEFAULT-TASK": 1
+    },
+    "MQTT-CONFIG":
+    {
+        "TOPIC_PUB": "no-use-topic",
+        "TOPIC_SUB": "b67fa935-4cd9-4724-b11f-1ff49897da3e",
+        "MQTT_BROKER_URL": "broker.hivemq.com",
+        "MQTT_USR": "",
+        "MQTT_PWD": "",
+        "MQTT_PORT": 1883,
+        "QOS": 0,
+        "CLIENT_ID":"kf-python-producer",
+        "MQTT_WAIT_TIME":2
+    },
+    "KAFKA-CONFIG":
+    {
+        "KAFKA-URL":"pkc-9q8rv.ap-south-2.aws.confluent.cloud:9092",
+        "KAFKA-USR":"P65IWZDTHDBWVKZC",
+        "KAFKA-PWD":"Y0yzH4IKuaFFs8cbAj1C8VK/BDLqSOEj1uh8wW+22eL+St3Z4gsaN9ihOdLenyHV",
+        "KAFKA-TOPIC":"topic_58"
+    }
+}
